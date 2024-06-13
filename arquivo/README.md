@@ -1,4 +1,4 @@
-# Tutorial Flaskk
+# Objetivo do projeto
 
 Este Projeto acadêmico visa a criação de um aplicativo de blog básico chamado Flaskr. Os usuários poderão se registrar, fazer login, criar postagens e editar ou excluir suas próprias postagens.
 
