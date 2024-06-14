@@ -6,7 +6,7 @@ Planilha que possibilita filtrar com facilidade os melhores fundos imobiliários
 
 Essas instruções permitirão que você obtenha uma cópia do projeto em sua conta Google.
 
-Consulte **[Implantação](#-implanta%C3%A7%C3%A3o)** para saber como implantar o projeto.
+Consulte a seção **[Copiando-planilha](#-copiando-planilha)** para saber como implantar o projeto.
 
 ### 📋 Pré-requisitos
 
@@ -15,20 +15,19 @@ Você precisa ter uma conta do Google para acessar a planilha com todas as suas 
 ```
 exemplo@google.com
 ```
-### 🔧 Copiando planilha
 
-Para obter uma cópia planilha funcional você precisará fazer acessar o link de cópia e seguir o passo a passo para ativar a automação feita com JavaScript
+### 🔧 Copiando-planilha
+
+Para obter uma cópia planilha funcional você precisará acessar o link de cópia e seguir o passo a passo para ativar a automação feita com JavaScript
 
 Link para fazer uma cópia da planilha:
 
-[Planilha seletora de Fundos Imobiliários](https://docs.google.com/spreadsheets/d/1TqsEVithp59ttpRQ2IuAwflyIg96y3lFu88yI5-WiuY/copy)
+- **[Planilha Seletora de Fundos Imobiliários](https://docs.google.com/spreadsheets/d/1TqsEVithp59ttpRQ2IuAwflyIg96y3lFu88yI5-WiuY/copy)**
 
-
-Termine com um exemplo de como obter dados do sistema ou como usá-los para uma pequena demonstração.
 
 ### 🔧 Habilitando o JavaScript
 
-Para habilitar a automação seram nescessários criar trigers de acionamento.
+Para habilitar a automação será nescessário criar trigers de acionamento.
 
 1. Acesse a aba extenções
 2. Escolha a opção Apps Script
@@ -37,7 +36,7 @@ Para habilitar a automação seram nescessários criar trigers de acionamento.
 ![Tela do AppScript](/img/Captura%20de%20tela%20de%202024-06-11%2019-42-36.png)
 
 4. No menu lateral escolha a opção ***"Acionadores"***
-5. Deverá carregar uma tela como esta
+5. Deverá carregar uma tela como esta:
 
 ![Tela de adição de acionador](/img/Captura%20de%20tela%20de%202024-06-11%2019-42-59.png)
 
@@ -67,6 +66,7 @@ Essa autenticação é realizada pelo próprio google não tendo relação diret
 
 ![Imagem do código executao](/img/Código%20executado.png)
 
+
 ## ⚙️ Utilizando a planilha
 
 A planilha possui duas abas: Filtro e Base de Dados cada uma possui uma função expecífica que será exibido a seguir.
@@ -87,46 +87,40 @@ Caso a planilha não carregue pode ter algo errado com os acionadores do Apps Sc
 
 ![Imagem da aba Base de Dados](/img/Aba%20Base%20de%20Dados.png)
 
-## 📦 Implantação
-
-Adicione notas adicionais sobre como implantar isso em um sistema ativo
 
 ## 🛠️ Construído com
 
-Mencione as ferramentas que você usou para criar seu projeto
+* [JavaScript](http://www.dropwizard.io/1.0.2/docs/) - Permite fazer a automação
+* [Google Planilhas](https://maven.apache.org/) - Simples, completo e acessível
+* [Cluve Fii](https://rometools.github.io/rome/) - A fonte de dados
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - O framework web usado
-* [Maven](https://maven.apache.org/) - Gerente de Dependência
-* [ROME](https://rometools.github.io/rome/) - Usada para gerar RSS
-
-## 🖇️ Colaborando
-
-Por favor, leia o [COLABORACAO.md](https://gist.github.com/usuario/linkParaInfoSobreContribuicoes) para obter detalhes sobre o nosso código de conduta e o processo para nos enviar pedidos de solicitação.
 
 ## 📌 Versão
 
-Nós usamos [SemVer](http://semver.org/) para controle de versão. Para as versões disponíveis, observe as [tags neste repositório](https://github.com/suas/tags/do/projeto). 
+Utilizei [GitFlow](http://gist.github.com/_paulo-raoni/1a8f52138f67fd40379f454ee61aa4ce) para controle de versão. Para as versões disponíveis, observe as [tags neste repositório](https://github.com/suas/tags/do/projeto). 
 
 ## ✒️ Autores
 
-Mencione todos aqueles que ajudaram a levantar o projeto desde o seu início
+Deixo meu agradecimento ao canal Sheets Easy por todo conhecimento que tenho adquirido sobre as ferramentas do Google
 
-* **Um desenvolvedor** - *Trabalho Inicial* - [umdesenvolvedor](https://github.com/linkParaPerfil)
-* **Fulano De Tal** - *Documentação* - [fulanodetal](https://github.com/linkParaPerfil)
-
-Você também pode ver a lista de todos os [colaboradores](https://github.com/usuario/projeto/colaboradores) que participaram deste projeto.
+* **Youtube** - [Sheets Ease](https://youtube.com/@SheetsEasy)
 
 ## 📄 Licença
 
-Este projeto está sob a licença (sua licença) - veja o arquivo [LICENSE.md](https://github.com/usuario/projeto/licenca) para detalhes.
+Este projeto está sob a licença (GNU GENERAL PUBLIC LICENSE) - veja o arquivo [LICENSE.md](LICENSE) para detalhes.
 
 ## 🎁 Expressões de gratidão
 
 * Conte a outras pessoas sobre este projeto 📢;
 * Convide alguém da equipe para uma cerveja 🍺;
 * Um agradecimento publicamente 🫂;
-* etc.
+* Entre em contato comigo [Linkedin](https://www.linkedin.com/in/antoniojhone/) 
+<a href="https://www.linkedin.com/in/antoniojhone/">
+  <img align="justfy" alt="Jhone Antonio | LinkedIN" width="14px" src="https://upload.wikimedia.org/wikipedia/commons/8/81/LinkedIn_icon.svg" />
+</a>
 
 
 ---
 ⌨️ com ❤️ por [Armstrong Lohãns](https://gist.github.com/lohhans) 😊
+
+✒️ editado por [Jhone Antonio](https://github.com/ebonyWizard4/) 😊
